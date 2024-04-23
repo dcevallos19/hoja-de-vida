@@ -1,0 +1,61 @@
+ 
+    header {
+        color: #e71d1d; 
+        backdrop-filter: blur(10px);
+        border: 3px solid #f4f4f4;
+        border-radius: 50px;
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .fondo {
+        height: 100vh;
+        width: 100vw;
+        background: url(Foto/.jpeg) center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .imagen {
+        width: 200px;
+        height: auto;
+        background: url(Foto/.jpeg) center;
+    }
+    .Card {
+        backdrop-filter: blur(5px);
+        text-align: center;
+        border-radius: 50px;
+        height: auto;
+        width: 250px; 
+        border: 3px solid #fc5b5b;
+        margin-bottom: 20px;
+        padding: 20px; 
+    }
+    
+    .title {
+        text-align: center;
+        height: auto;
+        color: #b12222; 
+    }
+    
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+    
+    .references {
+        width: 100%;
+    }
+    
+    .references th,
+    .references td {
+        padding: 10px; 
+        text-align: center;
+    }
+    
+    .references th {
+        background-color: #b12222; 
+        color: #ffffff; 
+    }
